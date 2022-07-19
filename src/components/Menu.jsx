@@ -88,7 +88,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
             <Img src={LamaTube} />
-            LamaTube
+            MeoMeo
           </Logo>
         </Link>
         <Item>
@@ -115,7 +115,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Hr />
         <Login>
           Sign in to like videos, comment, and subscribe.
-          <Link to="signin" style={{textDecoration:"none"}}>
+          <Link to="signin" style={{ textDecoration: "none" }}>
             <Button>
               <AccountCircleOutlinedIcon />
               SIGN IN
@@ -123,7 +123,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
           </Link>
         </Login>
         <Hr />
-        <Title>BEST OF LAMATUBE</Title>
+        <Title>BEST OF MEOMEO</Title>
         <Item>
           <LibraryMusicOutlinedIcon />
           Music
